@@ -1,0 +1,20 @@
+{
+  "persons": [
+    {
+      "name": "Gaslamp",
+      "email": "tabilin.michael1998@gmail.com",
+      "educationLevel": "highschool",
+      "gender": "male",
+      "imgSrc": "blob:http://localhost:3000/436ab870-c539-42de-9cf5-13bdd4acd8f2",
+      "id": "915e"
+    },
+    {
+      "id": "505d",
+      "name": "Gaslamp",
+      "email": "tabilin.michael1998@gmail.com",
+      "educationLevel": "college",
+      "gender": "female",
+      "imgSrc": "blob:http://localhost:3000/d20470d1-e688-4b71-9092-2d316a68c564"
+    }
+  ]
+}
