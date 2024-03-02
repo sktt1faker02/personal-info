@@ -1,75 +1,25 @@
-# Nuxt 3 Minimal Starter
+# Simple Personal Information Project with Vue
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## Installation
 
-## Setup
+### Install Dependencies
 
-Make sure to install the dependencies:
+Run the following command in your terminal to install the required dependencies:
 
 ```bash
-# npm
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
+Start JSON Server
 
 ```bash
-# npm
+npm run backend
+```
+
+Verify the setup by accessing http://localhost:5000/persons. If there's data or an empty object/array, the JSON server is set up successfully.
+
+Open another terminal and start the Nuxt server
+
+```bash
 npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
